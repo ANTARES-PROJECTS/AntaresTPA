@@ -1,0 +1,36 @@
+plugin:
+  permissao: "&cError! Você não tem permissão para usar este comando."
+  tempo: "&cError! Você precisa esperar {tempo} segundos antes de usar este comando novamente."
+
+tpa:
+  comando_errado: "&cError! Uso incorreto! Use /tpa <jogador>"
+  jogador_off: "&cError! O jogador especificado não está online."
+  mandar_pedido_para_si: "&cError! Você não pode mandar tpa para você mesmo."
+  pedido_pendente: "&cError!O jogador especificado já tem um pedido de TPA pendente."
+  pedido_cancelado: "&7Seu pedido de TPA para {nick} foi cancelado."
+  pedido_enviado: "&7Pedido de teletransporte enviado para &9{nick}"
+  recebendo_tpa_1: "&9{nick} &7enviou um pedido de teletransporte para você"
+  recebendo_tpa_2: "&7Clique {aceitar} &7para aceitar ou clique {recusar} &7para negar."
+  accept_button: "&a&lAQUI"
+  deny_button: "&c&lAQUI"
+  pedido_expirado_player: "&7O pedido de teletransporte para &9{nick} &7expirou."
+  pedido_expirado_target: "&7O pedido de teletransporte de &9{nick} &7expirou."
+
+tpaccept:
+  sem_pedido: "&7Não há nenhum pedido de teletransporte pendente."
+  jogador_off: "&cError! O jogador que enviou o pedido não está mais online."
+  teletransportado: "&aVocê foi teletransportado para &9{nick}"
+  solicitacao_aceita: "&aVocê aceitou a solicitação de teleporte do &9{nick}"
+
+tpdeny:
+  sem_pedido: "&7Não há nenhum pedido de teletransporte pendente."
+  jogador_off: "&cError! O jogador que enviou o pedido não está mais online."
+  pedido_negado: "&aPedido de teletransporte de {nick} negado."
+  solicitacao_negado: "&c{nick} negou o seu pedido de teletransporte."
+
+tpcancel:
+  comando_errado: "&cError! Uso incorreto! Use /tpcancel <jogador>"
+  jogador_off: "&cError! O jogador especificado não está online."
+  sem_pedidos: "&cNão há nenhum pedido de teletransporte pendente com este jogador."
+  pedido_cancelado: "&aPedido de teletransporte para {nick} foi cancelado"
+  solicitacao_canelado: "&c{nick} cancelou seu pedido de teletransporte."

@@ -1,0 +1,12 @@
+name: AntaresTPA
+version: '${project.version}'
+main: me.blacknaut.antarestpa.AntaresTPA
+commands:
+  tpa:
+    description: Solicita um pedido de teletransporte para outro jogador.
+  tpaccept:
+    description: Aceita um pedido de teletransporte recebido.
+  tpdeny:
+    description: Recusa um pedido de teletransporte recebido.
+  tpcancel:
+    description: Cancela um pedido de teletransporte enviado.
